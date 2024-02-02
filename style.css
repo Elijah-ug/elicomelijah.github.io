@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #c7c6c6;
+    background: linear-gradient(100deg, rgb(162, 153, 243), #f8ebab);
+    scroll-behavior: smooth;
+}
+
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    background-color: #333;
+    z-index: 1;
+}
+a, p{
+    text-decoration: none;
+    color: #333;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+}
+.header ul li a{
+    margin-right: 40px;
+    color: #fff;
+}
+.header ul li a:hover{
+    color: #de0bfa;
+    text-decoration: underline;
+    font-size: .75rem;
+    transition: all .45s ease;
+}
+ .header ul li:hover{
+    color: dodgerblue;
+}
+img{
+    width: 70px;
+    border-radius: 50%;
+    margin: 5px auto 5px 40px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+img:hover{
+    opacity: .75;
+    transition: all .25s ease;
+}
+main{
+    height: 60%;
+    background-image: url(site.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin-right: 9px;
+    margin-top: 100px;
+}
+main:hover{
+    opacity: .9;
+}
+main, footer p{
+    margin-left: 100px;
+    line-height: 1.5rem;
+}
+main p a{
+    color: #de0bfa;
+}
+footer ul{
+ list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+footer ul li{
+    margin: 20px;
+}
+footer {
+    margin-top: 11%;
+}
+.container{
+    height: 100vh;
+    /* overflow-y: hidden; */
+}
+.main-footer p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-footer img {
+    width: 1.5rem;
+}
+
+.lower-paragraph{
+    text-align: center;
+}
